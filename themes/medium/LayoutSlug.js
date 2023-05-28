@@ -49,8 +49,6 @@ export const LayoutSlug = props => {
                 <section className="py-2 items-center text-sm  px-1">
                     <div className='flex flex-wrap text-gray-500 py-1 dark:text-gray-600'>
                         <span className='whitespace-nowrap'> <i className='far fa-calendar mr-2' />{date}</span>
-                        <span className='mx-1'>|</span>
-                        <span className='whitespace-nowrap mr-2'><i className='far fa-calendar-check mr-2' />{post.lastEditedTime}</span>
                         <div className="hidden busuanzi_container_page_pv font-light mr-2 whitespace-nowrap">
                             <i className="mr-1 fas fa-eye" /><span className="busuanzi_value_page_pv" />
                         </div>
@@ -72,18 +70,6 @@ export const LayoutSlug = props => {
                     {post && (<NotionPage post={post} />)}
                 </section>
 
-                <section className="px-1 py-2 my-1 text-sm font-light overflow-auto text-gray-600  dark:text-gray-400">
-                    {/* 文章内嵌广告 */}
-                    <ins
-                        className="adsbygoogle"
-                        style={{ display: 'block', textAlign: 'center' }}
-                        data-adtest="on"
-                        data-ad-layout="in-article"
-                        data-ad-format="fluid"
-                        data-ad-client="ca-pub-2708419466378217"
-                        data-ad-slot="3806269138"
-                    />
-                </section>
 
                 <section>
 

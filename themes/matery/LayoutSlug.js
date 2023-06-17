@@ -118,3 +118,5 @@ export const LayoutSlug = props => {
     </LayoutBase>
   )
 }
+
+export default LayoutSlug

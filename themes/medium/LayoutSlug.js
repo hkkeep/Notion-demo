@@ -70,7 +70,6 @@ export const LayoutSlug = props => {
                     {post && (<NotionPage post={post} />)}
                 </section>
 
-
                 <section>
 
                     {/* 分享 */}

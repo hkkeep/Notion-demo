@@ -58,7 +58,6 @@ export const LayoutSlug = props => {
               {post && <NotionPage post={post} />}
             </section>
 
-
             {/* 分享 */}
             <ShareBar post={post} />
             {post.type === 'Post' && <ArticleCopyright {...props} /> }
